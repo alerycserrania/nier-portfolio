@@ -1,0 +1,63 @@
+{
+    "skills": {
+        "title": "Compétences"
+    },
+    "home": {
+        "title": "Accueil",
+        "description": "Présentations, réglages et contacts",
+        "language": {
+            "title": "Langues",
+            "description": "Changer la langue du site"
+        },
+        "credits": {
+            "title": "Crédits",
+            "description": "Afficher les crédits du site"
+        },
+        "contacts": {
+            "title": "Contacts",
+            "description": "Afficher mes réseaux"
+        },
+        "settings": {
+            "title": "Réglages",
+            "description": "Changer les réglages du système"
+        }
+    },
+    "education": {
+        "title": "Formations",
+        "description": "Parcours scolaire et formations",
+        "dutinfoparis": {
+            "title": "DUT Informatique",
+            "location": "Université de Paris-Descartes",
+            "period": "2017-2019"
+        },
+        "insalyon": {
+            "title": "Ingénieur en informatique",
+            "location": "INSA de Lyon",
+            "period": "2019-2022"
+        },
+        "ucddublin": {
+            "title": "Semestre Erasmus",
+            "location": "University College of Dublin",
+            "period": "Automne 2021"
+        }
+    },
+    "employment": {
+        "title": "Expériences"
+    },
+    "hobbies": {
+        "title": "Hobbies",
+        "description": "Créations et passe-temps",
+        "painting": {
+            "title": "Peinture",
+            "description": "Afficher ma galerie d'art numérique"
+        },
+        "music": {
+            "title": "Musique",
+            "description": "Ecouter mes créations musicales"
+        },
+        "videogame": {
+            "title": "Jeux vidéos",
+            "description": "Jouer à mes jeux"
+        }
+    }
+}

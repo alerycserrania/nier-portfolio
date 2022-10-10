@@ -1,0 +1,34 @@
+{
+    "skills": {
+        "title": "Skills"
+    },
+    "home": {
+        "title": "Home",
+        "description": "Presentations, settings and contacts",
+        "language": {
+            "title": "Languages",
+            "description": "Change the language of the website"
+        },
+        "credits": {
+            "title": "Credits",
+            "description": "Show the credits"
+        },
+        "contacts": {
+            "title": "Contacts",
+            "description": "Display my social networks"
+        },
+        "settings": {
+            "title": "Settings",
+            "description": "Change system settings"
+        }
+    },
+    "education": {
+        "title": "Education"
+    },
+    "employment": {
+        "title": "Employment"
+    },
+    "hobbies": {
+        "title": "Hobbies"
+    }
+}

@@ -5,6 +5,8 @@
     <nier-button :is="'a'" href="https://www.pixiv.net/en/users/69802194">Pixiv (painting)</nier-button>
     <nier-button :is="'a'" href="https://cyrelouyea.itch.io/">Itch.io (games)</nier-button>
     <nier-button :is="'a'" href="https://github.com/alerycserrania">Github (code)</nier-button>
+    
+    <nier-button :is="'a'" href="https://www.senscritique.com/aleryc">SensCritique (things I like)</nier-button>
   </nier-list>
 </template>
 

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: rodin;
+  font-weight: 900;
+  src: url('../fonts/FOTRodin_Pro_DB.otf') format('opentype');
+}
+
+@font-face {
+  font-family: rodin;
+  font-weight: 100 500;
+  src: url('../fonts/FOTRodin_Pro_M.otf') format('opentype');
+}
+
+
+* {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  color: black;
+  font-family: rodin;
+  font-size: 1em;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1.42rem;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+}
+
+.page-enter-active {
+  transition: opacity 0.2s ease;
+  opacity: 0;
+}
+
+.page-leave-active {
+  transition: opacity 0.2s ease;
+  opacity: 1
+}
+
+.page-leave-to {
+  opacity: 0;
+}
+
+.page-enter-to {
+  opacity: 1
+}
+
+
+.slide-fade-enter-active {
+  transition: opacity 0.2s linear, transform 0.2s ease;
+  opacity: 0;
+  transform: translateX(-25px);
+}
+
+.slide-fade-enter-to {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-fade-full-enter-active {
+  transition: all 0.1s linear;
+  opacity: 0;
+}
+
+.slide-fade-full-enter-to {
+  opacity: 1;
+}
+
+.slide-fade-full-leave-active {
+  transition: all 0.1s linear;
+  opacity: 1;
+}
+
+.slide-fade-full-leave-to {
+  opacity: 0;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  15% {
+    opacity: 0.7;
+  }
+}

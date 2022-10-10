@@ -1,0 +1,105 @@
+@import "colors.scss";
+
+* {
+  color: $dark;
+
+  @each $name,
+  $color in $colors {
+    &.#{$name} {
+      color: $color;
+    }
+
+    &.bg-#{$name} {
+      background-color: $color;
+    }
+  }
+  
+  letter-spacing: 1px;
+}
+
+@each $name, $color in $colors {
+  .border-#{$name} {
+    border: $color 1px solid;
+  }
+}
+
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 600;
+  text-shadow: 5px 5px 0 $medium;
+  letter-spacing: 4px;
+  padding-bottom: 0.7em; 
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+h5 {
+  font-size: 0.83em;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 0.67em;
+  font-weight: 600;
+}
+
+b, b * {
+  font-weight: bold !important;
+}
+
+em, em * {
+  color: $important !important;
+}
+
+
+::selection {
+  color: $light;
+  background: $medium;
+}
+
+
+
+* {
+  scrollbar-color: $dark rgba($dark, 0.2);
+  scrollbar-width: thin;
+}
+
+*:focus-visible {
+  outline: 2px   solid $important;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: rgba($dark, 0.2);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $dark;
+}
+
+.nier-box-shadow {
+  box-shadow: 2.5px 2.5px rgba($dark, 0.8);
+}
